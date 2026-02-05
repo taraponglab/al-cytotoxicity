@@ -25,7 +25,7 @@ This repository contains the source code and dataset for the paper "Molecular Ac
 
 ## Graphical Abstract
 
-![Graphical Abstract](./assets/graphical_abstract.png)
+![Graphical Abstract](./assets/Abstract.png)
 
 ---
 
