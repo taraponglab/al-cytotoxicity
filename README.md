@@ -1,6 +1,6 @@
 # Molecular Active Learning for Predicting Skin Cytotoxicity
 
-This repository contains the source code and dataset for the paper "Molecular Active Learning Approaches for Predicting Skin Cytotoxicity", published in *Computers in Biology and Medicine*.
+This repository contains the source code and dataset for the paper "Molecular Active Learning Approaches for Predicting Skin Cytotoxicity", submitted to *Journal of Chemical Information and Modeling*.
 
 ## Authors
 
