@@ -1,0 +1,44 @@
+# Install by conda env create -f environment_cpu.yml && conda activate ai-drugdiscovery
+# Activate with: conda activate ai-drugdiscovery
+name: ai-drugdiscovery
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  # Core numerical & data
+  - numpy
+  - pandas
+  - openpyxl
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - tqdm
+  - joblib
+  - imbalanced-learn
+  - umap-learn
+  - xgboost
+  # Cheminformatics
+  - rdkit
+  - pubchempy
+  # PyTorch
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  #- pytorch-cuda=12.1    # match your NVIDIA driver version check via `nvidia-smi`
+  # ---- pip packages (installed after conda deps) ----
+  - pip:
+      # Deep learning (TF + Keras)
+      - tensorflow
+      - keras
+      # Cheminformatics libs
+      - cirpy
+      # Active Learning utils
+      - modAL
+      # GNN (PyTorch Geometric + ops)
+      - torch-geometric
+      # Optional GPU acceleration for NumPy-like ops (CUDA 12.x only)
+      #- cupy-cuda12x
