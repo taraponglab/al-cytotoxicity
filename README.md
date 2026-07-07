@@ -43,18 +43,20 @@ conda activate ai-drugdiscovery
 
 The project dependencies are listed in the `environment_cpu.yml` file. The main packages include:
 
--   Python 3.11
--   PyTorch
--   TensorFlow / Keras
--   RDKit
--   Scikit-learn
--   modAL (for Active Learning)
--   PyTorch Geometric (for GNNs)
--   NumPy
--   Pandas
--   Matplotlib / Seaborn
--   XGBoost
--   UMAP
+- Python: 3.11.14
+- PyTorch: 2.2.2
+- TensorFlow: 2.20.0
+- Keras: 3.13.2
+- RDKit: 2025.09.4
+- Scikit-learn: 1.8.0
+- modAL: 1.3.2
+- PyTorch Geometric: 2.7.0
+- NumPy: 1.26.4
+- Pandas: 2.3.3
+- Matplotlib: 3.10.8
+- Seaborn: 0.13.2
+- XGBoost: 3.1.3
+- UMAP (umap-learn): 0.5.11
 
 ## License
 
